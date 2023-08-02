@@ -1,0 +1,198 @@
+* ,body ,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+
+.column{
+    flex: calc(25% - 3rem);
+}
+
+.card{
+    flex:25%;
+}
+
+.stepscard{ 
+ flex: calc(33.33% - 3rem);
+}
+
+.price-box{
+ flex: calc(33.33% - 3rem);
+    
+}
+.connect{
+    flex: 33.33%;
+   
+}
+#circle {
+    /* background: lightblue; */
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.form-inline{
+    padding-left:50px ;
+}
+
+.icons{
+    /* padding: 50px; */
+}
+
+.lightblue{
+    background-color: #F3F7FA;
+}
+.bgimage{
+    background-image: url('bgwallpaper.jpg');
+
+    height: auto;
+}
+
+table > tbody > tr > td{
+    text-align: center;
+}
+
+tr{
+    line-height: 40px;
+}
+
+.imager{
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+}
+
+.progress{
+    height: 10px;
+}
+.progress-bar{
+    width: 85%;
+}
+.checked {  
+    color : rgb(231, 231, 55);  
+    font-size : 20px;  
+}  
+.unchecked {  
+    font-size : 20px;  
+}  
+table {
+    border-collapse: collapse;
+    width: 50%;
+    padding: 20px;
+    border-spacing: 30px;
+}
+  
+td {
+    text-align: left;
+    padding: 180px;
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+
+}
+/* .desk{
+    width: 90%;
+} */
+  
+tr:nth-child(even) {
+    background-color: rgb(230, 243, 248);
+}
+
+.footer{
+    background-color: #2A354F;
+}
+a{
+    text-decoration: none;
+}
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+  }
+
+.workspace{
+  padding: 5rem;
+}
+
+.plans{
+    padding: 5rem;
+}
+.features{
+    padding: 5rem;
+}
+
+.overlay{
+  
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1; 
+        width: 100%;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        opacity: 1;
+      
+}
+.middle-page{
+    padding: 5rem;
+}
+@media (max-width: 390px) {
+
+    .icons {
+        font-size: 0.3rem;
+    }
+
+    .homepage{
+        padding: 50px;
+    }
+
+    .findbutton{
+        width: 100%;
+    }
+   
+    .column{
+        flex: 50%;
+    }
+
+    .card{
+        flex: 50%;
+    }
+    .middle-page{
+        padding: 3rem;
+    }
+
+    .workspace{
+        padding: 3rem;
+    }
+
+    .plans{
+        padding: 3rem;
+    }
+  
+    .features{
+        padding: 0rem;
+    }
+
+    .spaces{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .explore{
+        flex-direction: column;
+    }
+}
